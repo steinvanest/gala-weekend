@@ -12,7 +12,7 @@ const CONFIG = {
 
   // Teksten in de kop
   EVENT_KOP: 'Lustrum',
-  EVENT_TITEL: 'Gala Weekend',
+  EVENT_TITEL: 'Weekend',
   EVENT_ONDERTITEL: 'Een weekend vol glans, glamour en vriendschap',
 
   // Optioneel: aftelklok op de startpagina, bijvoorbeeld '2026-11-13T17:00'. Leeg laten = geen klok.
