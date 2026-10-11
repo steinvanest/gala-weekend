@@ -3,8 +3,8 @@
    ============================================================ */
 const CONFIG = {
   // Uit Supabase: Project Settings > API
-  SUPABASE_URL: 'https://JOUW-PROJECT.supabase.co',
-  SUPABASE_ANON_KEY: 'JOUW-ANON-KEY',   // de "anon public" key. Deze mag openbaar zijn.
+  SUPABASE_URL: 'https://griniuthtwcflkfxrhxo.supabase.co',
+  SUPABASE_ANON_KEY: 'sb_publishable_2rw9BDusdPXds2LDCZGCVw_dG6p6DJ8',   // de "anon public" key. Deze mag openbaar zijn.
 
   // Moet gelijk zijn aan EMAIL_DOMEIN in scripts/create-users.mjs.
   // Er worden nooit e-mails naar dit adres gestuurd; het is alleen een intern label.
