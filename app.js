@@ -36,6 +36,7 @@ function toonLogin() {
     <div class="login">
       <div class="zon"></div>
       <div class="login-kaart kaart">
+        <img class="logo-groot" src="logo.jpg" alt="Editie V" width="150" height="150">
         <p class="kop">${CONFIG.EVENT_KOP}</p>
         <h1 class="goud">${CONFIG.EVENT_TITEL}</h1>
         <p class="onder">${CONFIG.EVENT_ONDERTITEL}</p>
@@ -96,7 +97,7 @@ function bouwShell() {
   $('#app').innerHTML = html`
     <div class="shell ${org ? 'is-org' : ''}">
       <header class="topbalk">
-        <a class="merk" href="#/"><span class="merk-ruit">◆</span><span class="merk-tekst">${CONFIG.EVENT_KOP} <b>${CONFIG.EVENT_TITEL}</b></span></a>
+        <a class="merk" href="#/"><img class="merk-logo" src="logo.jpg" alt="" width="34" height="34"><span class="merk-tekst">${CONFIG.EVENT_KOP} <b>${CONFIG.EVENT_TITEL}</b></span></a>
         <div class="wie">
           ${org ? html`<span class="tag">Organisatie</span>` : ''}
           <a href="#/profiel" class="wie-naam">${state.profiel.naam}</a>

@@ -31,6 +31,7 @@ async function dnHome(root) {
   root.innerHTML = html`
     <section class="hero">
       <div class="zon"></div>
+      <img class="logo-groot" src="logo.jpg" alt="Editie V" width="130" height="130">
       <p class="kop">${CONFIG.EVENT_KOP}</p>
       <h1 class="goud">${CONFIG.EVENT_TITEL}</h1>
       <p class="onder">${CONFIG.EVENT_ONDERTITEL}</p>

@@ -423,3 +423,8 @@ body:has(.is-org) #toasts { bottom: 1.2rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* Logo Editie V */
+.logo-groot { display: block; width: 150px; height: 150px; margin: 0 auto 1rem; border-radius: 22%; border: 1px solid rgba(216,180,90,.45); box-shadow: 0 0 28px rgba(216,180,90,.22); object-fit: cover; }
+.hero .logo-groot { width: 130px; height: 130px; }
+.merk-logo { width: 34px; height: 34px; border-radius: 22%; border: 1px solid rgba(216,180,90,.45); object-fit: cover; flex: none; }
